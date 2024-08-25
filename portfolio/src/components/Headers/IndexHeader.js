@@ -31,25 +31,44 @@ function IndexHeader() {
         className="page-header section-dark"
         style={{
           backgroundImage:
-            "url(" + require("assets/img/IMG_6854.png") + ")",
+            "url(" + require("assets/img/antoine-barres.jpg") + ")",
         }}
       >
         <div className="filter" />
         <div className="content-center">
           <Container>
             <div className="title-brand">
-              <h1 className="presentation-title">Project Portfolio</h1>
+              <h1 className="presentation-title">Paper Kit React</h1>
+              <div className="fog-low">
+                <img alt="..." src={require("assets/img/fog-low.png")} />
+              </div>
+              <div className="fog-low right">
+                <img alt="..." src={require("assets/img/fog-low.png")} />
+              </div>
             </div>
             <h2 className="presentation-subtitle text-center">
-              Aspiring Front-End Developer
+              Make your mark with a Free Bootstrap 4 (Reactstrap) UI Kit!
             </h2>
           </Container>
         </div>
+        <div
+          className="moving-clouds"
+          style={{
+            backgroundImage: "url(" + require("assets/img/clouds.png") + ")",
+          }}
+        />
         <h6 className="category category-absolute">
-          Coded by{" "}
-          <img className='pixel' src='https://github.com/jianna-braza/portfolio/blob/main/src/assets/img/pixelMe.png?raw=true' />
-          Jianna Braza | | Template from
-          <a href='https://www.creative-tim.com/product/paper-kit-react?tracking=first-time#'> Creative Tim</a>
+          Designed and coded by{" "}
+          <a
+            href="https://www.creative-tim.com?ref=pkr-index-page"
+            target="_blank"
+          >
+            <img
+              alt="..."
+              className="creative-tim-logo"
+              src={require("assets/img/creative-tim-white-slim2.png")}
+            />
+          </a>
         </h6>
       </div>
     </>

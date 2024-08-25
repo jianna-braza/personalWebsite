@@ -22,41 +22,6 @@
  * Copyright 2012-2013 Mattia Larentis
  * http://www.apache.org/licenses/LICENSE-2.0
  */
-
- .climateClosetSection {
-  background-color:rgb(11, 0, 133) !important;
-}
-
-.betterTomorrowImg {
-  height:400px;
-  width: 500px;
-}
-
-.textColor {
-  color:rgba(255, 255, 255, 0.929) !important;
-}
-
-p, li {
-  color:black;
-  font-weight:normal !important;
-}
-
-.pixel {
-  border-radius: 50%;
-  width:50px;
-  padding-right: 5px;
-  padding-left:5px;
-}
-
-.projectImages {
-  border: 5px solid #555;
-}
-
-.imageSizing {
-  width:800px;
-  height: 350px;
-}
-
 .bootstrap-switch {
   display: inline-block;
   direction: ltr;
