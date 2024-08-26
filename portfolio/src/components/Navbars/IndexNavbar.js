@@ -91,7 +91,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            <NavItem>
+            <NavItem className='dontShow' >
               <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/CreativeTim?ref=creativetim"
@@ -135,7 +135,7 @@ function IndexNavbar() {
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className='dontShow' >
               <NavLink
                 href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
                 target="_blank"
@@ -143,7 +143,7 @@ function IndexNavbar() {
                 <i className="nc-icon nc-book-bookmark" /> Documentation
               </NavLink>
             </NavItem>
-            <NavItem>
+            <NavItem className="dontShow" >
               <Button
                 className="btn-round"
                 color="danger"
