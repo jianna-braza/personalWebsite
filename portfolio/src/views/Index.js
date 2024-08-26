@@ -26,6 +26,7 @@ import IndexHeader from "components/Headers/IndexHeader.js";
 import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
+import AquapodSection from "views/index-sections/AquapodSection.js";
 import SectionButtons from "views/index-sections/SectionButtons.js";
 import SectionNavbars from "views/index-sections/SectionNavbars.js";
 import SectionNavigation from "views/index-sections/SectionNavigation.js";
@@ -53,6 +54,7 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
+      <AquapodSection />
         <SectionButtons />
         <SectionNavbars />
         <SectionNavigation />
