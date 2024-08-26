@@ -75,11 +75,11 @@ function AquapodSection() {
               <img
                 alt="..."
                 className="img-rounded img-responsive"
-                src={require("assets/img/uriel-soberanes.jpg")}
+                src={require("assets/img/aquanautsWebsite.png")}
               />
             </Col>
             <Col lg="6" md="12">
-              <h2 className="title">Nucleo Icons</h2>
+              <h2 className="title">King County Water Resource Locator</h2>
               <br />
               <p className="description">
                 This project focuses on Goal 6 from the UN SDGS: Clean Water and Sanitation.
