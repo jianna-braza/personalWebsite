@@ -54,7 +54,6 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
-      <AquapodSection />
         <SectionButtons />
         <SectionNavbars />
         <SectionNavigation />
