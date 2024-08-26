@@ -72,19 +72,31 @@ function AquapodSection() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-
+              <img
+                alt="..."
+                className="img-rounded img-responsive"
+                src={require("assets/img/uriel-soberanes.jpg")}
+              />
             </Col>
             <Col lg="6" md="12">
               <h2 className="title">Nucleo Icons</h2>
               <br />
               <p className="description">
-                Paper Kit comes with 100 custom icons made by our friends from
-                NucleoApp. The official package contains over 2.100 thin icons
-                which are looking great in combination with Paper Kit Make sure
-                you check all of them and use those that you like the most.
+                This project focuses on Goal 6 from the UN SDGS: Clean Water and Sanitation.
+                This issue arises due to water resources, specifically sanitized and clean drinking
+                water, are not easily accessible to the majority of people.
+                Although access to water is a basic human right, the resources and supplies may not
+                be publicly known, which can be a major barrier for those in need of them. Likewise,
+                there are many capable people who could help donate these supplies or uncover
+                services. However, many people are unaware of how they can assist in this issue.
+                The app aims to serve three purposes for the people of King County, WA:
               </p>
+              <ul>
+                <li>Be a resource that people can use to help find clean water resources: water bottle refilling stations, water fountains, public restrooms, etc.</li>
+                <li>Serve as a hub to help promote charities that people can donate to or learn more</li>
+                <li>Educate users of the current state of King County and how water availability affects the community</li>
+              </ul>
               <br />
-
             </Col>
           </Row>
         </Container>
