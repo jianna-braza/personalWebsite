@@ -23,7 +23,7 @@ import { Container, Row, Col } from "reactstrap";
 
 // core components
 
-function SectionDark() {
+function AquapodSection() {
   return (
     <>
       <div className="section section-dark">
@@ -45,4 +45,4 @@ function SectionDark() {
   );
 }
 
-export default SectionDark;
+export default AquapodSection;
