@@ -50,7 +50,7 @@ function AquapodSection() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-              <img className='projectImages' src='' />
+
             </Col>
             <Col lg="6" md="12">
               <h2 className="title">King County Water Resource Locator</h2>
