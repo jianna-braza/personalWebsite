@@ -35,9 +35,9 @@ import {
 function ClimateClosetSection() {
   return (
     <>
-      <Navbar className="bg-warning" expand="lg">
+      <Navbar className="climateClosetSection" expand="lg">
         <Container>
-          <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+          <NavbarBrand className='textColor' href="#pablo" onClick={(e) => e.preventDefault()}>
             Climate Closet (INFO 441)
           </NavbarBrand>
           <button
@@ -57,7 +57,7 @@ function ClimateClosetSection() {
           <UncontrolledCollapse navbar toggler="#navbar-info">
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink
+                <NavLink className='textColor'
                   href="https://github.com/jianna-braza/ClimateCloset"
                 >
                   Repository
@@ -86,7 +86,7 @@ function ClimateClosetSection() {
             <Col lg="6" md="12">
               <img
                 alt="..."
-                className="img-rounded img-responsive"
+                className="img-rounded img-responsive projectImages"
                 src={require("assets/img/ClimateCloset.png")}
               />
             </Col>

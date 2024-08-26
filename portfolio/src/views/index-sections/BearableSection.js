@@ -88,7 +88,7 @@ function BearableSection() {
             <Col lg="6" md="12">
               <img
                 alt="..."
-                className="img-rounded img-responsive"
+                className="img-rounded img-responsive projectImages"
                 src={require("assets/img/bearable.png")}
               />
             </Col>

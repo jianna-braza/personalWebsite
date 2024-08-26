@@ -35,7 +35,7 @@ import {
 function BetterTomorrowSection() {
   return (
     <>
-      <Navbar className="bg-primary" expand="lg">
+      <Navbar className="bg-info" expand="lg">
         <Container>
           <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
             A Better Tomorrow (INFO 340)
@@ -74,7 +74,7 @@ function BetterTomorrowSection() {
             <Col lg="6" md="12">
               <img
                 alt="..."
-                className="img-rounded img-responsive"
+                className="img-rounded img-responsive projectImages"
                 src={require("assets/img/betterTomorrowSmall.png")}
               />
             </Col>

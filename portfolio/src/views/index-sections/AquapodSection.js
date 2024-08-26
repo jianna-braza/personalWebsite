@@ -35,7 +35,7 @@ import {
 function AquapodSection() {
   return (
     <>
-      <Navbar className="bg-info" expand="lg">
+      <Navbar className="bg-primary" expand="lg">
         <Container>
           <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
             The AquaPod (INFO 442)
@@ -74,7 +74,7 @@ function AquapodSection() {
             <Col lg="6" md="12">
               <img
                 alt="..."
-                className="img-rounded img-responsive"
+                className="img-rounded img-responsive projectImages"
                 src={require("assets/img/aquanautsWebsite.png")}
               />
             </Col>
