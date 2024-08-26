@@ -27,6 +27,11 @@
   background-color:rgb(11, 0, 133) !important;
 }
 
+.dontShow {
+  display: none !important;
+  background-color: red !important;
+}
+
 .betterTomorrowImg {
   height:400px;
   width: 500px;
