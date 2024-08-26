@@ -27,6 +27,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
 import AquapodSection from "views/index-sections/AquapodSection.js";
+import BetterTomoprrowSection from "views/index-sections/BetterTomorrowSection.js";
 
 function Index() {
   document.documentElement.classList.remove("nav-open");
@@ -42,6 +43,7 @@ function Index() {
       <IndexHeader />
       <div className="main">
         <AquapodSection />
+        <BetterTomoprrowSection />
         <DemoFooter />
       </div>
     </>
