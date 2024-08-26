@@ -67,17 +67,24 @@ function AquapodSection() {
           </UncontrolledCollapse>
         </Container>
       </Navbar>
-      <div className="section section-dark">
+
+      <div className="section">
         <Container>
           <Row>
-            <Col className="ml-auto mr-auto text-center" md="8">
-              <h2 className="title">Completed with examples</h2>
+            <Col lg="6" md="12">
+
+            </Col>
+            <Col lg="6" md="12">
+              <h2 className="title">Nucleo Icons</h2>
+              <br />
               <p className="description">
-                The kit comes with three pre-built pages to help you get started
-                faster. You can change the text and images and you're good to
-                go. More importantly, looking at them will give you a picture of
-                what you can built with this powerful kit.
+                Paper Kit comes with 100 custom icons made by our friends from
+                NucleoApp. The official package contains over 2.100 thin icons
+                which are looking great in combination with Paper Kit Make sure
+                you check all of them and use those that you like the most.
               </p>
+              <br />
+
             </Col>
           </Row>
         </Container>
