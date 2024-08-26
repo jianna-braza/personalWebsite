@@ -18,14 +18,72 @@
 */
 import React from "react";
 
-// reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import {
+  UncontrolledCollapse,
+  NavbarBrand,
+  Navbar,
+  NavItem,
+  NavLink,
+  Nav,
+  Container,
+  Row,
+  Col
+} from "reactstrap";
 
 // core components
 
 function AquapodSection() {
   return (
     <>
+      <Navbar className="bg-info" expand="lg">
+        <Container>
+          <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
+            Info Color
+          </NavbarBrand>
+          <button
+            aria-controls="navbarNav"
+            aria-expanded={false}
+            aria-label="Toggle navigation"
+            className="navbar-toggler navbar-toggler-right"
+            data-target="#navbar-info"
+            data-toggle="collapse"
+            id="navbar-info"
+            type="button"
+          >
+            <span className="navbar-toggler-bar" />
+            <span className="navbar-toggler-bar" />
+            <span className="navbar-toggler-bar" />
+          </button>
+          <UncontrolledCollapse navbar toggler="#navbar-info">
+            <Nav className="ml-auto" navbar>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Discover
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Profile
+                </NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink
+                  href="#pablo"
+                  onClick={(e) => e.preventDefault()}
+                >
+                  Settings
+                </NavLink>
+              </NavItem>
+            </Nav>
+          </UncontrolledCollapse>
+        </Container>
+      </Navbar>
       <div className="section section-dark">
         <Container>
           <Row>
