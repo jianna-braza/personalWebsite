@@ -50,7 +50,12 @@ function AquapodSection() {
         <Container>
           <Row>
             <Col lg="6" md="12">
-
+              <img
+                alt="..."
+                className="img-rounded img-responsive"
+                src={require("assets/img/examples/landing-page.png")}
+                style={{ width: "100%" }}
+              />
             </Col>
             <Col lg="6" md="12">
               <h2 className="title">King County Water Resource Locator</h2>
