@@ -63,22 +63,6 @@ function AquapodSection() {
                   Repository
                 </NavLink>
               </NavItem>
-              <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Profile
-                </NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
-                >
-                  Settings
-                </NavLink>
-              </NavItem>
             </Nav>
           </UncontrolledCollapse>
         </Container>
