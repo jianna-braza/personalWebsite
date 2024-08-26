@@ -94,9 +94,20 @@ function IndexNavbar() {
             <NavItem>
               <NavLink
                 data-placement="bottom"
+                href="https://twitter.com/CreativeTim?ref=creativetim"
+                target="_blank"
+                title="Follow us on Twitter"
+              >
+                <i className="fa fa-twitter" />
+                <p className="d-lg-none">Twitter</p>
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                data-placement="bottom"
                 href="https://www.facebook.com/profile.php?id=100051979111458"
                 target="_blank"
-                title="Facebook"
+                title="Like us on Facebook"
               >
                 <i className="fa fa-facebook-square" />
                 <p className="d-lg-none">Facebook</p>
@@ -107,7 +118,7 @@ function IndexNavbar() {
                 data-placement="bottom"
                 href="https://www.instagram.com/jibrazachu/"
                 target="_blank"
-                title="Instagram"
+                title="Follow us on Instagram"
               >
                 <i className="fa fa-instagram" />
                 <p className="d-lg-none">Instagram</p>
@@ -118,11 +129,29 @@ function IndexNavbar() {
                 data-placement="bottom"
                 href="https://github.com/jianna-braza"
                 target="_blank"
-                title="GitHub"
+                title="Star on GitHub"
               >
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink
+                href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
+                target="_blank"
+              >
+                <i className="nc-icon nc-book-bookmark" /> Documentation
+              </NavLink>
+            </NavItem>
+            <NavItem>
+              <Button
+                className="btn-round"
+                color="danger"
+                href="https://www.creative-tim.com/product/paper-kit-pro-react?ref=pkr-index-navbar"
+                target="_blank"
+              >
+                <i className="nc-icon nc-spaceship"></i> Upgrade to Pro
+              </Button>
             </NavItem>
           </Nav>
         </Collapse>
