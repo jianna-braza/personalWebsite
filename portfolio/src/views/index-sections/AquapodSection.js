@@ -38,7 +38,7 @@ function AquapodSection() {
       <Navbar className="bg-info" expand="lg">
         <Container>
           <NavbarBrand href="#pablo" onClick={(e) => e.preventDefault()}>
-            Info Color
+            The AquaPod (INFO 442)
           </NavbarBrand>
           <button
             aria-controls="navbarNav"
@@ -58,10 +58,9 @@ function AquapodSection() {
             <Nav className="ml-auto" navbar>
               <NavItem>
                 <NavLink
-                  href="#pablo"
-                  onClick={(e) => e.preventDefault()}
+                  href="https://github.com/UW-INFO442-AU23/aquanauts"
                 >
-                  Discover
+                  Repository
                 </NavLink>
               </NavItem>
               <NavItem>
