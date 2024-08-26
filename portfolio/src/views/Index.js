@@ -27,6 +27,7 @@ import DemoFooter from "components/Footers/DemoFooter.js";
 
 // index sections
 import AquapodSection from "views/index-sections/AquapodSection.js";
+import BearableSection from "views/index-sections/BearableSection.js";
 import BetterTomoprrowSection from "views/index-sections/BetterTomorrowSection.js";
 
 function Index() {
@@ -42,6 +43,7 @@ function Index() {
       <IndexNavbar />
       <IndexHeader />
       <div className="main">
+        <BearableSection />
         <AquapodSection />
         <BetterTomoprrowSection />
         <DemoFooter />
