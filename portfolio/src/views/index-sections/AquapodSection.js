@@ -56,6 +56,13 @@ function AquapodSection() {
           </button>
           <UncontrolledCollapse navbar toggler="#navbar-info">
             <Nav className="ml-auto" navbar>
+            <NavItem>
+                <NavLink
+                  href="https://aquanauts.onrender.com"
+                >
+                  Website
+                </NavLink>
+              </NavItem>
               <NavItem>
                 <NavLink
                   href="https://github.com/UW-INFO442-AU23/aquanauts"
