@@ -58,7 +58,7 @@ function AquapodSection() {
             <Nav className="ml-auto" navbar>
             <NavItem>
                 <NavLink
-                  href="https://aquanauts.onrender.com"
+                  href="https://aquanauts.vercel.app/"
                 >
                   Website
                 </NavLink>
